@@ -25,6 +25,7 @@ docker compose exec web python manage.py load_data --csv data/LK_SPOTS.csv
 docker compose exec web python manage.py test spots
 ```
 
+---
 
 ## Modelo de datos
 
@@ -47,3 +48,100 @@ docker compose exec web python manage.py test spots
 | `Spot` | `location` | `PointField` | 4326 | Punto con coordenadas (latitud, longitud) que representa la ubicación exacta del spot. |
 | `Municipality` | `geom` | `MultiPolygonField` | 4326 | Polígono o conjunto de polígonos que representa los límites del municipio. |
 | `State` | `geom` | `MultiPolygonField` | 4326 | Polígonos que delimitan el estado o provincia. |
+
+
+---
+
+## Endpoints implementados
+- 1 Health Check: **GET** `/api/health/`
+- 2 Listar todos los spots (paginado): **GET** `/api/spots/`
+- 3 Búsqueda geoespacial – spots cercanos: **GET** `/api/spots/nearby/?lat=19.4326&lng=-99.1332&radius=2000`
+
+---
+
+### 1 Health Check
+
+Endpoint simple para verificar el estado de la API.
+**GET** `/api/health/`
+
+**Ejemplo de respuesta:**
+```json
+{
+  "status": "ok"
+}
+```
+
+---
+
+### 2 Listar todos los spots (paginado)
+**GET** `/api/spots/`
+
+Parámetros:
+- `page` (int, opcional - default:1) → número de página (por defecto: 1)
+
+**Ejemplo de request:**
+```
+GET /api/spots/?page=2
+```
+
+**Ejemplo de respuesta:**
+```json
+{
+  "count": 123,
+  "next": "http://localhost:8000/api/spots/?page=3",
+  "previous": "http://localhost:8000/api/spots/?page=1",
+  "results": [
+    {
+      "id": 1,
+      "spot_id": "25564",
+      "title": "Industrial Warehouse",
+      "sector_id": 9,
+      "type_id": 2,
+      "modality": "rent",
+      "location": {
+        "type": "Point",
+        "coordinates": [-99.1332, 19.4326]
+      },
+      "area_sqm": 6800,
+      "price_total_rent_mxn": 2720000
+    }
+  ]
+}
+```
+
+> La paginación está configurada en `settings.py` con `PAGE_SIZE = 50`.
+
+---
+
+### 3 Búsqueda geoespacial – spots cercanos
+**GET** `/api/spots/nearby/?lat=19.4326&lng=-99.1332&radius=2000`
+
+Parámetros:
+- `lat` (float, requerido)
+- `lng` (float, requerido)
+- `radius` (float, metros, opcional, default: 1000)
+
+**Ejemplo de request:**
+```
+GET /api/spots/nearby/?lat=19.4326&lng=-99.1332&radius=2000
+```
+
+Respuesta (paginada):
+```json
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "spot_id": "S1",
+      "title": "Exact",
+      "location": {"type":"Point","coordinates":[-99.1332,19.4326]},
+      "sector_id": 9,
+      "type_id": 1,
+      "modality": "rent"
+    },
+    ...
+  ]
+}
+```

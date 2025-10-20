@@ -1,25 +1,60 @@
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, action
 from rest_framework.response import Response
 from rest_framework import status, viewsets
 from .models import Spot
+from django.contrib.gis.geos import Point
+from django.contrib.gis.db.models.functions import Distance
+from django.contrib.gis.measure import D
 from .serializers import SpotSerializer
 
 @api_view(["GET"])
 def health(request):
-    """
-    Simple health check endpoint.
-    GET /api/health/
-    """
     return Response({"status": "ok"}, status=status.HTTP_200_OK)
 
 
 class SpotViewSet(viewsets.ReadOnlyModelViewSet):
-
     queryset = (
         Spot.objects
         .select_related(
-            "settlement__municipality__state", "region", "corridor"
+            "settlement__municipality__state",
+            "region",
+            "corridor",
         )
         .order_by("id")
     )
     serializer_class = SpotSerializer
+
+    @action(detail=False, methods=["get"], url_path="nearby")
+    def nearby(self, request):
+
+        lat = request.query_params.get("lat")
+        lng = request.query_params.get("lng")
+        radius = request.query_params.get("radius", "1000")
+
+        try:
+            lat = float(lat)
+            lng = float(lng)
+            radius = float(radius)
+        except (TypeError, ValueError):
+            return Response(
+                {"detail": "lat y lng son obligatorios y numéricos; radius en metros (numérico)."},
+                status=400,
+            )
+
+        p = Point(lng, lat, srid=4326)
+
+        qs = (
+            self.get_queryset()
+            .annotate(distance=Distance("location", p))
+            .filter(location__distance_lte=(p, D(m=radius)))
+            .order_by("distance", "id")
+        )
+
+        page = self.paginate_queryset(qs)
+        if page is not None:
+            ser = self.get_serializer(page, many=True)
+            return self.get_paginated_response(ser.data)
+
+        ser = self.get_serializer(qs, many=True)
+        return Response(ser.data)
+
