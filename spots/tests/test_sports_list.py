@@ -7,7 +7,7 @@ class SpotsListTests(APITestCase):
         base_lng, base_lat = -99.1332, 19.4326
         for i in range(55):
             Spot.objects.create(
-                spot_id=f"S{i+1}",
+                spot_id=i+25001,
                 title=f"Spot {i+1}",
                 location=Point(base_lng + i*0.0001, base_lat + i*0.0001, srid=4326),
                 sector_id=9,

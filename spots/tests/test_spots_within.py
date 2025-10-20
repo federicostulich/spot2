@@ -13,17 +13,17 @@ class SpotsWithinPolygonTests(APITestCase):
         setl_co = Settlement.objects.create(name="Col. C", municipality=muni_co)
 
         self.s1 = Spot.objects.create(
-            spot_id="AO-1", title="AO 1",
+            spot_id=25501, title="AO 1",
             location=Point(-99.21, 19.37, srid=4326),
             sector_id=9, type_id=1, modality="rent", settlement=setl_ao
         )
         self.s2 = Spot.objects.create(
-            spot_id="AO-2", title="AO 2",
+            spot_id=25502, title="AO 2",
             location=Point(-99.22, 19.39, srid=4326),
             sector_id=12, type_id=2, modality="rent", settlement=setl_ao
         )
         self.s3 = Spot.objects.create(
-            spot_id="CO-1", title="CO 1",
+            spot_id=25503, title="CO 1",
             location=Point(-99.14, 19.33, srid=4326),
             sector_id=9, type_id=1, modality="rent", settlement=setl_co
         )
@@ -43,7 +43,7 @@ class SpotsWithinPolygonTests(APITestCase):
         data = r.json()
         assert set(data.keys()) == {"count", "next", "previous", "results"}
         ids = {x["spot_id"] for x in data["results"]}
-        assert ids == {"AO-1", "AO-2"}
+        assert ids == {25501, 25502}
         assert data["count"] == 2
 
     def test_within_polygon_requires_payload(self):

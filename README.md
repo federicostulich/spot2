@@ -59,6 +59,7 @@ docker compose exec web python manage.py test spots
 - 4 Búsqueda filtrada por atributos: **GET** `/api/spots/?sector=9&type=1&municipality=Álvaro Obregón`
 - 5 Búsqueda geoespacial – spots dentro de un polígono: **POST** `/api/spots/within/`
 - 6 Precio promedio por sector: **GET** `/api/spots/average-price-by-sector/`
+- 7 Obtener detalles de un spot específico: **GET** `/api/spots/{id}/`
 
 
 ---
@@ -267,3 +268,26 @@ GET /api/spots/?sector=9&type=1&municipality=Álvaro Obregón
 ```
 
 ---
+
+## 7 Obtener detalles de un spot específico
+
+**GET** `/api/spots/{id}/`
+
+
+**Ejemplo de respuesta:**
+```json
+{
+  "spot_id": 25564,
+  "title": "Num ID",
+  "sector_id": 9,
+  "type_id": 2,
+  "modality": "rent",
+  "location": { "type": "Point", "coordinates": [-99.1332, 19.4326] },
+  "area_sqm": 6800,
+  "price_total_rent_mxn": 2720000
+}
+
+```
+
+---
+

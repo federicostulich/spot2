@@ -9,7 +9,7 @@ class AveragePriceBySectorTests(APITestCase):
         setl_ao = Settlement.objects.create(name="Col. A", municipality=muni_ao)
 
         Spot.objects.create(
-            spot_id="S-IND-1",
+            spot_id="25501",
             title="Ind 1",
             sector_id=9, type_id=1, modality="rent",
             location=Point(-99.2, 19.4, srid=4326),
@@ -17,7 +17,7 @@ class AveragePriceBySectorTests(APITestCase):
             price_total_rent_mxn=1000,
         )
         Spot.objects.create(
-            spot_id="S-IND-2",
+            spot_id="25502",
             title="Ind 2",
             sector_id=9, type_id=2, modality="rent",
             location=Point(-99.21, 19.41, srid=4326),
@@ -25,7 +25,7 @@ class AveragePriceBySectorTests(APITestCase):
             price_total_rent_mxn=3000,
         )
         Spot.objects.create(
-            spot_id="S-IND-NULL",
+            spot_id="25503",
             title="Ind null",
             sector_id=9, type_id=1, modality="rent",
             location=Point(-99.205, 19.405, srid=4326),
@@ -34,7 +34,7 @@ class AveragePriceBySectorTests(APITestCase):
         )
 
         Spot.objects.create(
-            spot_id="S-RET-1",
+            spot_id="25504",
             title="Retail 1",
             sector_id=12, type_id=1, modality="rent",
             location=Point(-99.22, 19.39, srid=4326),

@@ -79,7 +79,7 @@ class Spot(models.Model):
         SALE      = "sale", "Sale"
         RENT_SALE = "rent_sale", "Rent & Sale"
 
-    spot_id = models.CharField(max_length=64, unique=True, db_index=True)
+    spot_id = models.PositiveIntegerField(unique=True)
     title = models.CharField(max_length=255, blank=True)
     description = models.TextField(blank=True)
 

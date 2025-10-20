@@ -13,7 +13,7 @@ class SpotsFilterTests(APITestCase):
         setl_co = Settlement.objects.create(name="Col. C", municipality=muni_co)
 
         Spot.objects.create(
-            spot_id="S-AO-1",
+            spot_id=25001,
             title="AO retail single",
             sector_id=12,
             type_id=1,
@@ -22,7 +22,7 @@ class SpotsFilterTests(APITestCase):
             location=Point(-99.2, 19.4, srid=4326),
         )
         Spot.objects.create(
-            spot_id="S-AO-2",
+            spot_id=25502,
             title="AO industrial complex",
             sector_id=9,
             type_id=2,
@@ -31,7 +31,7 @@ class SpotsFilterTests(APITestCase):
             location=Point(-99.21, 19.41, srid=4326),
         )
         Spot.objects.create(
-            spot_id="S-AO-3",
+            spot_id=25503,
             title="AO industrial single",
             sector_id=9,
             type_id=1,
@@ -40,7 +40,7 @@ class SpotsFilterTests(APITestCase):
             location=Point(-99.205, 19.405, srid=4326),
         )
         Spot.objects.create(
-            spot_id="S-CO-1",
+            spot_id=25504,
             title="CO industrial single",
             sector_id=9,
             type_id=1,
@@ -56,7 +56,7 @@ class SpotsFilterTests(APITestCase):
         data = r.json()
         assert data["count"] == 1
         ids = [x["spot_id"] for x in data["results"]]
-        assert ids == ["S-AO-3"]
+        assert ids == [25503]
 
     def test_filter_by_municipality_case_insensitive(self):
         url = "/api/spots/?municipality=álVaro obReGón"
@@ -64,7 +64,7 @@ class SpotsFilterTests(APITestCase):
         assert r.status_code == 200
         data = r.json()
         ids = sorted(x["spot_id"] for x in data["results"])
-        assert set(ids) == {"S-AO-1", "S-AO-2", "S-AO-3"}
+        assert set(ids) == {25001, 25502, 25503}
 
     def test_filter_by_sector_only(self):
         url = "/api/spots/?sector=12"
@@ -72,7 +72,7 @@ class SpotsFilterTests(APITestCase):
         assert r.status_code == 200
         data = r.json()
         ids = [x["spot_id"] for x in data["results"]]
-        assert ids == ["S-AO-1"]
+        assert ids == [25001]
 
     def test_filter_by_type_only(self):
         url = "/api/spots/?type=2"
@@ -80,4 +80,4 @@ class SpotsFilterTests(APITestCase):
         assert r.status_code == 200
         data = r.json()
         ids = [x["spot_id"] for x in data["results"]]
-        assert ids == ["S-AO-2"]
+        assert ids == [25502]

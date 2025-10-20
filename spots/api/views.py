@@ -9,7 +9,7 @@ from django.contrib.gis.measure import D
 from spots.models import Spot
 from .serializers import (
     SpotListSerializer, SpotDetailSerializer,
-    NearbyParamsSerializer, WithinPolygonSerializer
+    NearbyParamsSerializer, SpotSerializer, WithinPolygonSerializer
 )
 from .filters import apply_spot_filters
 
@@ -17,8 +17,12 @@ class SpotViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = (
         Spot.objects
         .select_related("settlement__municipality__state", "region", "corridor")
-        .order_by("id")
+        .order_by("spot_id")
     )
+    serializer_class = SpotSerializer
+    lookup_field = "spot_id"
+    lookup_value_regex = r"\d+"
+    
     def get_serializer_class(self):
         return SpotDetailSerializer if self.action == "retrieve" else SpotListSerializer
 
