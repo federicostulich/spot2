@@ -12,6 +12,9 @@ from .serializers import (
     NearbyParamsSerializer, SpotSerializer, WithinPolygonSerializer
 )
 from .filters import apply_spot_filters
+from drf_spectacular.utils import (
+    extend_schema, OpenApiParameter, OpenApiExample, OpenApiTypes, OpenApiResponse
+)
 
 class SpotViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = (
@@ -30,6 +33,28 @@ class SpotViewSet(viewsets.ReadOnlyModelViewSet):
         qs = super().get_queryset()
         return apply_spot_filters(qs, self.request.query_params)
 
+    @extend_schema(
+        description="Spots cercanos ordenados por distancia (metros).",
+        parameters=[
+            OpenApiParameter(name="lat", type=OpenApiTypes.FLOAT, location=OpenApiParameter.QUERY, required=True),
+            OpenApiParameter(name="lng", type=OpenApiTypes.FLOAT, location=OpenApiParameter.QUERY, required=True),
+            OpenApiParameter(name="radius", type=OpenApiTypes.FLOAT, location=OpenApiParameter.QUERY, required=False,
+                             description="Radio en metros (default 1000)"),
+            OpenApiParameter(name="sector", type=OpenApiTypes.INT, location=OpenApiParameter.QUERY, required=False),
+            OpenApiParameter(name="type", type=OpenApiTypes.INT, location=OpenApiParameter.QUERY, required=False),
+            OpenApiParameter(name="municipality", type=OpenApiTypes.STR, location=OpenApiParameter.QUERY, required=False),
+        ],
+        responses={200: SpotSerializer(many=True)},
+        examples=[
+            OpenApiExample(
+                "Ejemplo",
+                value={"count": 2, "next": None, "previous": None, "results": [
+                    {"spot_id": 101, "title": "A", "location": {"type":"Point","coordinates":[-99.2,19.4]}},
+                    {"spot_id": 102, "title": "B", "location": {"type":"Point","coordinates":[-99.21,19.41]}},
+                ]},
+            )
+        ],
+    )
     @action(detail=False, methods=["get"], url_path="nearby")
     def nearby(self, request):
         params = NearbyParamsSerializer(data=request.query_params)
@@ -50,6 +75,28 @@ class SpotViewSet(viewsets.ReadOnlyModelViewSet):
         ser = self.get_serializer(page if page is not None else qs, many=True)
         return self.get_paginated_response(ser.data) if page is not None else Response(ser.data)
 
+    @extend_schema(
+        description="Spots dentro de un polígono GeoJSON (SRID=4326).",
+        request={
+            "application/json": {
+                "type": "object",
+                "properties": {
+                    "polygon": {
+                        "type": "object",
+                        "example": {
+                            "type": "Polygon",
+                            "coordinates": [[
+                                [-99.25, 19.35], [-99.25, 19.41],
+                                [-99.18, 19.41], [-99.18, 19.35]
+                            ]]
+                        },
+                    }
+                },
+                "required": ["polygon"],
+            }
+        },
+        responses={200: SpotSerializer(many=True)},
+    )
     @action(detail=False, methods=["post"], url_path="within")
     def within(self, request):
         s = WithinPolygonSerializer(data=request.data)
@@ -61,6 +108,12 @@ class SpotViewSet(viewsets.ReadOnlyModelViewSet):
         ser = self.get_serializer(page if page is not None else qs, many=True)
         return self.get_paginated_response(ser.data) if page is not None else Response(ser.data)
 
+    @extend_schema(
+        description="Promedio de `price_total_rent_mxn` por sector. Respeta filtros de la lista.",
+        responses={
+            200: OpenApiTypes.OBJECT,
+        },
+    )
     @action(detail=False, methods=["get"], url_path="average-price-by-sector")
     def average_price_by_sector(self, request):
         qs = (
@@ -84,6 +137,17 @@ class SpotViewSet(viewsets.ReadOnlyModelViewSet):
         ]
         return Response(results)
     
+    @extend_schema(
+        description="Ranking por `price_total_rent_mxn` descendente. Respeta filtros de la lista.",
+        parameters=[
+            OpenApiParameter(name="limit", type=OpenApiTypes.INT, location=OpenApiParameter.QUERY, required=False,
+                             description="Cantidad máxima (1..100). Default: 10"),
+            OpenApiParameter(name="sector", type=OpenApiTypes.INT, location=OpenApiParameter.QUERY, required=False),
+            OpenApiParameter(name="type", type=OpenApiTypes.INT, location=OpenApiParameter.QUERY, required=False),
+            OpenApiParameter(name="municipality", type=OpenApiTypes.STR, location=OpenApiParameter.QUERY, required=False),
+        ],
+        responses={200: SpotSerializer(many=True)},
+    )
     @action(detail=False, methods=["get"], url_path="top-rent")
     def top_rent(self, request):
         limit = request.query_params.get("limit", "10")

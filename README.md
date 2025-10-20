@@ -52,6 +52,18 @@ docker compose exec web python manage.py test spots
 
 ---
 
+## 📖 Documentación (Swagger / OpenAPI)
+
+Este proyecto expone el esquema OpenAPI y dos UIs:
+
+- **Esquema JSON**: `GET /api/schema/`
+- **Swagger UI**: `GET /api/docs/`
+- **ReDoc**: `GET /api/redoc/`
+
+Tecnología: **drf-spectacular**  
+
+---
+
 ## Endpoints implementados
 - 1 Health Check: **GET** `/api/health/`
 - 2 Listar todos los spots (paginado): **GET** `/api/spots/`
