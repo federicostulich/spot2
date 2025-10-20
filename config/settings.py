@@ -18,6 +18,7 @@ INSTALLED_APPS = [
     "django.contrib.gis",
     "rest_framework",
     "rest_framework_gis",
+    "drf_spectacular",
     "spots",
 ]
 
@@ -84,6 +85,14 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 REST_FRAMEWORK = {
-    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "DEFAULT_PAGINATION_CLASS": "spots.api.pagination.DefaultPagination",
     "PAGE_SIZE": 50,
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "GeoSpots API",
+    "DESCRIPTION": "API geoespacial (Django + GeoDjango + DRF + PostGIS).",
+    "VERSION": "1.0.0",
+    "SERVE_INCLUDE_SCHEMA": False,
 }
