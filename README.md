@@ -213,6 +213,7 @@ GET /api/spots/?sector=9&type=1&municipality=Álvaro Obregón
     ]
   }
 }
+```
 
 **Ejemplo de respuesta (paginada):**
 
