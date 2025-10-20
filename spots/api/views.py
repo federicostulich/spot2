@@ -1,6 +1,7 @@
 from rest_framework import viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
+from django.db.models import Avg
 from django.contrib.gis.geos import Point
 from django.contrib.gis.db.models.functions import Distance
 from django.contrib.gis.measure import D
@@ -55,3 +56,26 @@ class SpotViewSet(viewsets.ReadOnlyModelViewSet):
         page = self.paginate_queryset(qs)
         ser = self.get_serializer(page if page is not None else qs, many=True)
         return self.get_paginated_response(ser.data) if page is not None else Response(ser.data)
+
+    @action(detail=False, methods=["get"], url_path="average-price-by-sector")
+    def average_price_by_sector(self, request):
+        qs = (
+            self.get_queryset()
+            .exclude(price_total_rent_mxn__isnull=True)
+        )
+
+        data = (
+            qs.values("sector_id")
+              .annotate(average_price_total_rent_mxn=Avg("price_total_rent_mxn"))
+              .order_by("sector_id")
+        )
+        sector_labels = dict(Spot.Sector.choices)
+        results = [
+            {
+                "sector_id": row["sector_id"],
+                "sector_label": sector_labels.get(row["sector_id"], str(row["sector_id"])),
+                "average_price_total_rent_mxn": row["average_price_total_rent_mxn"],
+            }
+            for row in data
+        ]
+        return Response(results)

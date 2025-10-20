@@ -58,6 +58,7 @@ docker compose exec web python manage.py test spots
 - 3 Búsqueda geoespacial – spots cercanos: **GET** `/api/spots/nearby/?lat=19.4326&lng=-99.1332&radius=2000`
 - 4 Búsqueda filtrada por atributos: **GET** `/api/spots/?sector=9&type=1&municipality=Álvaro Obregón`
 - 5 Búsqueda geoespacial – spots dentro de un polígono: **POST** `/api/spots/within/`
+- 6 Precio promedio por sector: **GET** `/api/spots/average-price-by-sector/`
 
 
 ---
@@ -241,5 +242,28 @@ GET /api/spots/?sector=9&type=1&municipality=Álvaro Obregón
     }
   ]
 }
-
 ```
+
+---
+
+## 6 Precio promedio por sector
+
+**GET** `/api/spots/average-price-by-sector/`
+
+**Ejemplo de respuesta:**
+```json
+[
+  {
+    "sector_id": 9,
+    "sector_label": "Industrial",
+    "average_price_total_rent_mxn": 2000.0
+  },
+  {
+    "sector_id": 12,
+    "sector_label": "Retail",
+    "average_price_total_rent_mxn": 500.0
+  }
+]
+```
+
+---
