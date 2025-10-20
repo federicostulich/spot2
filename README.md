@@ -52,7 +52,7 @@ docker compose exec web python manage.py test spots
 
 ---
 
-## 📖 Documentación (Swagger / OpenAPI)
+## Documentación (Swagger / OpenAPI)
 
 Este proyecto expone el esquema OpenAPI y dos UIs:
 
