@@ -1,10 +1,11 @@
 from rest_framework.decorators import api_view, action
 from rest_framework.response import Response
 from rest_framework import status, viewsets
-from .models import Spot
 from django.contrib.gis.geos import Point
 from django.contrib.gis.db.models.functions import Distance
 from django.contrib.gis.measure import D
+
+from .models import Spot
 from .serializers import SpotSerializer
 
 @api_view(["GET"])
@@ -23,6 +24,33 @@ class SpotViewSet(viewsets.ReadOnlyModelViewSet):
         .order_by("id")
     )
     serializer_class = SpotSerializer
+
+    def get_queryset(self):
+        qs = super().get_queryset()
+        params = self.request.query_params
+
+        sector = params.get("sector")
+        type_ = params.get("type")
+        municipality = params.get("municipality")
+
+        if sector:
+            try:
+                qs = qs.filter(sector_id=int(sector))
+            except ValueError:
+                pass
+
+        if type_:
+            try:
+                qs = qs.filter(type_id=int(type_))
+            except ValueError:
+                pass
+
+        if municipality:
+            qs = qs.filter(
+                settlement__municipality__name__iexact=municipality.strip()
+            )
+
+        return qs
 
     @action(detail=False, methods=["get"], url_path="nearby")
     def nearby(self, request):

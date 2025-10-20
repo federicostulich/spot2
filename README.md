@@ -56,6 +56,7 @@ docker compose exec web python manage.py test spots
 - 1 Health Check: **GET** `/api/health/`
 - 2 Listar todos los spots (paginado): **GET** `/api/spots/`
 - 3 Búsqueda geoespacial – spots cercanos: **GET** `/api/spots/nearby/?lat=19.4326&lng=-99.1332&radius=2000`
+- 4 Búsqueda filtrada por atributos: **GET** `/api/spots/?sector=9&type=1&municipality=Álvaro Obregón`
 
 ---
 
@@ -77,7 +78,7 @@ Endpoint simple para verificar el estado de la API.
 **GET** `/api/spots/`
 
 Parámetros:
-- `page` (int, opcional - default:1) → número de página (por defecto: 1)
+- `page` (int, opcional - default:1)
 
 **Ejemplo de request:**
 ```
@@ -145,3 +146,47 @@ Respuesta (paginada):
   ]
 }
 ```
+
+---
+
+### 4 Búsqueda filtrada por atributos
+
+**GET** `/api/spots/?sector=9&type=1&municipality=Álvaro Obregón`
+
+
+Parámetros:
+
+- `sector` (int, opcional, Sector id: [`9, 11, 12, 15`])
+- `type` (int, opcional, Type id: [`1, 2, 3`])
+- `municipality` (string, opcional, nombre del municipio)
+
+**Ejemplo de request:**
+
+```
+GET /api/spots/?sector=9&type=1&municipality=Álvaro Obregón
+```
+
+**Ejemplo de respuesta (paginada):**
+
+```json
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "spot_id": "S-100",
+      "sector_id": 9,
+      "type_id": 1,
+      "modality": "rent",
+      "location": {"type":"Point","coordinates":[-99.2,19.4]},
+      "settlement": 123,
+      "area_sqm": 1200
+    }
+  ]
+}
+```
+
+> El filtro `municipality` compara contra `Settlement → Municipality → name` y no distingue mayúsculas/minúsculas.
+
+---
