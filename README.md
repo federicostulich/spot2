@@ -57,6 +57,8 @@ docker compose exec web python manage.py test spots
 - 2 Listar todos los spots (paginado): **GET** `/api/spots/`
 - 3 Búsqueda geoespacial – spots cercanos: **GET** `/api/spots/nearby/?lat=19.4326&lng=-99.1332&radius=2000`
 - 4 Búsqueda filtrada por atributos: **GET** `/api/spots/?sector=9&type=1&municipality=Álvaro Obregón`
+- 5 Búsqueda geoespacial – spots dentro de un polígono: **POST** `/api/spots/within/`
+
 
 ---
 
@@ -190,3 +192,53 @@ GET /api/spots/?sector=9&type=1&municipality=Álvaro Obregón
 > El filtro `municipality` compara contra `Settlement → Municipality → name` y no distingue mayúsculas/minúsculas.
 
 ---
+
+
+### 5 Búsqueda geoespacial – spots dentro de un polígono
+
+**POST** `/api/spots/within/`
+
+**Body (JSON):**
+```json
+{
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-99.25, 19.35],
+        [-99.25, 19.41],
+        [-99.18, 19.41],
+        [-99.18, 19.35]
+      ]
+    ]
+  }
+}
+
+**Ejemplo de respuesta (paginada):**
+
+```json
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "spot_id": "AO-1",
+      "title": "AO 1",
+      "location": {"type": "Point", "coordinates": [-99.21, 19.37]},
+      "sector_id": 9,
+      "type_id": 1,
+      "modality": "rent"
+    },
+    {
+      "spot_id": "AO-2",
+      "title": "AO 2",
+      "location": {"type": "Point", "coordinates": [-99.22, 19.39]},
+      "sector_id": 12,
+      "type_id": 2,
+      "modality": "rent"
+    }
+  ]
+}
+
+```

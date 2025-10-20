@@ -1,7 +1,7 @@
 from rest_framework.decorators import api_view, action
 from rest_framework.response import Response
 from rest_framework import status, viewsets
-from django.contrib.gis.geos import Point
+from django.contrib.gis.geos import Point, Polygon
 from django.contrib.gis.db.models.functions import Distance
 from django.contrib.gis.measure import D
 
@@ -25,32 +25,6 @@ class SpotViewSet(viewsets.ReadOnlyModelViewSet):
     )
     serializer_class = SpotSerializer
 
-    def get_queryset(self):
-        qs = super().get_queryset()
-        params = self.request.query_params
-
-        sector = params.get("sector")
-        type_ = params.get("type")
-        municipality = params.get("municipality")
-
-        if sector:
-            try:
-                qs = qs.filter(sector_id=int(sector))
-            except ValueError:
-                pass
-
-        if type_:
-            try:
-                qs = qs.filter(type_id=int(type_))
-            except ValueError:
-                pass
-
-        if municipality:
-            qs = qs.filter(
-                settlement__municipality__name__iexact=municipality.strip()
-            )
-
-        return qs
 
     @action(detail=False, methods=["get"], url_path="nearby")
     def nearby(self, request):
@@ -86,3 +60,62 @@ class SpotViewSet(viewsets.ReadOnlyModelViewSet):
         ser = self.get_serializer(qs, many=True)
         return Response(ser.data)
 
+
+    def get_queryset(self):
+        qs = super().get_queryset()
+        params = self.request.query_params
+
+        sector = params.get("sector")
+        type_ = params.get("type")
+        municipality = params.get("municipality")
+
+        if sector:
+            try:
+                qs = qs.filter(sector_id=int(sector))
+            except ValueError:
+                pass
+
+        if type_:
+            try:
+                qs = qs.filter(type_id=int(type_))
+            except ValueError:
+                pass
+
+        if municipality:
+            qs = qs.filter(
+                settlement__municipality__name__iexact=municipality.strip()
+            )
+
+        return qs
+
+
+    @action(detail=False, methods=["post"], url_path="within")
+    def within(self, request):
+        poly = request.data.get("polygon")
+        if not poly or not isinstance(poly, dict):
+            return Response({"detail": "Falta 'polygon'."}, status=400)
+        if poly.get("type") != "Polygon":
+            return Response({"detail": "'polygon.type' debe ser 'Polygon'."}, status=400)
+
+        coords = poly.get("coordinates")
+        if not coords or not isinstance(coords, list) or not coords[0]:
+            return Response({"detail": "'polygon.coordinates' inválidos."}, status=400)
+
+        try:
+            ring = coords[0]
+            ring_norm = [(float(x), float(y)) for x, y in ring]
+            if ring_norm[0] != ring_norm[-1]:
+                ring_norm.append(ring_norm[0])
+            polygon = Polygon(ring_norm, srid=4326)
+        except Exception:
+            return Response({"detail": "Coordenadas inválidas. Formato: [[lng,lat],...]."}, status=400)
+
+        qs = self.get_queryset().filter(location__within=polygon)
+
+        page = self.paginate_queryset(qs)
+        if page is not None:
+            ser = self.get_serializer(page, many=True)
+            return self.get_paginated_response(ser.data)
+
+        ser = self.get_serializer(qs, many=True)
+        return Response(ser.data)
