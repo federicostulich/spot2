@@ -1,0 +1,1858 @@
+[
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Zona Centro, Venustiano Carranza, Ciudad de México",
+        "lot_size": 330.0,
+        "operations": [
+            {
+                "amount": 20000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$20,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno comercial",
+        "public_id": "EB-PV4135",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Venta de Terreno Simón Bolivar Cuauhtémoc, Cdmx",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384135/78307634/EB-PV4135.jpg?version=1722547917",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384135/78307634/EB-PV4135.jpg?version=1722547917&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 800.0,
+        "location": "Centro (Área 4), Cuauhtémoc, Ciudad de México",
+        "lot_size": 245.0,
+        "operations": [
+            {
+                "amount": 27500000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$27,500,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PV4165",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Edificio en Calle Allende Centro Histórico, Cdmx",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384165/77959533/EB-PV4165.jpg?version=1721843667",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384165/77959533/EB-PV4165.jpg?version=1721843667&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 1490.0,
+        "location": "Centro (Área 4), Cuauhtémoc, Ciudad de México",
+        "lot_size": 390.0,
+        "operations": [
+            {
+                "amount": 47000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$47,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PV4465",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Edificio en Centro Historico",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384465/78307893/EB-PV4465.jpg?version=1722548390",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384465/78307893/EB-PV4465.jpg?version=1722548390&width=200",
+        "updated_at": "2025-08-11T09:27:12-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 1350.0,
+        "location": "Centro (Área 4), Cuauhtémoc, Ciudad de México",
+        "lot_size": 528.0,
+        "operations": [
+            {
+                "amount": 76000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$76,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PV4472",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Edificio Recien Remodelado Para Hotel U Hostal",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384472/96609608/EB-PV4472.jpg?version=1759520047",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384472/96609608/EB-PV4472.jpg?version=1759520047&width=200",
+        "updated_at": "2025-10-03T13:34:19-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 13019.0,
+        "location": "Granada, Miguel Hidalgo, Ciudad de México",
+        "lot_size": 2299.0,
+        "operations": [
+            {
+                "amount": 430000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$430,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PV4492",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Plaza Lago Victoria 74, Miguel Hidalgo, Cdmx",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384492/78308032/EB-PV4492.jpg?version=1722548577",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384492/78308032/EB-PV4492.jpg?version=1722548577&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 6943.0,
+        "location": "Doctores, Cuauhtémoc, Ciudad de México",
+        "lot_size": 760.0,
+        "operations": [
+            {
+                "amount": 140000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$140,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PV4505",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Edificio Doble de Oficinas de 10 Pisos",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384505/78308056/EB-PV4505.jpg?version=1722548605",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384505/78308056/EB-PV4505.jpg?version=1722548605&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 12294.0,
+        "location": "Doctores, Cuauhtémoc, Ciudad de México",
+        "lot_size": 1366.0,
+        "operations": [
+            {
+                "amount": 230000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$230,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PV4525",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Edificio Doble de Oficinas Dr. Rio de La Loza Doctores, Cuauhtémoc",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384525/78308101/EB-PV4525.jpg?version=1722548633",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384525/78308101/EB-PV4525.jpg?version=1722548633&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 3440.0,
+        "location": "Polanco I Sección, Miguel Hidalgo, Ciudad de México",
+        "lot_size": 1080.0,
+        "operations": [
+            {
+                "amount": 237907320.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$237,907,320",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PV4573",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Edificio Habitacional Cicerón, Polanco, Miguel Hidalgo, Cdmx",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384573/78308220/EB-PV4573.jpg?version=1722548795",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384573/78308220/EB-PV4573.jpg?version=1722548795&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 9370.0,
+        "location": "Los Pastores, Naucalpan de Juárez, Estado de México",
+        "lot_size": 6515.0,
+        "operations": [
+            {
+                "amount": 120000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$120,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Nave industrial",
+        "public_id": "EB-PV4579",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Nave Industrial en Naucalpan, Edo. Mex",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384579/78205101/EB-PV4579.jpg?version=1722378805",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384579/78205101/EB-PV4579.jpg?version=1722378805&width=200",
+        "updated_at": "2025-06-06T16:52:56-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Lomas de Vista Hermosa, Cuajimalpa de Morelos, Ciudad de México",
+        "lot_size": 5267.0,
+        "operations": [
+            {
+                "amount": 100000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$100,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno",
+        "public_id": "EB-PV4583",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Terreno Carretera México - Toluca, Cuajimalpa, Cdmx",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384583/78308242/EB-PV4583.jpg?version=1722548832",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384583/78308242/EB-PV4583.jpg?version=1722548832&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Del Llano, Tula de Allende, Hidalgo",
+        "lot_size": 160000.0,
+        "operations": [
+            {
+                "amount": 190000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$190,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno",
+        "public_id": "EB-PV4591",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Terreno de 16 Hs en Tula de Allende",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384591/78308247/EB-PV4591.jpg?version=1722548862",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384591/78308247/EB-PV4591.jpg?version=1722548862&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Tizayuca, Tizayuca, Hidalgo",
+        "lot_size": 11000.0,
+        "operations": [
+            {
+                "amount": 11000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$11,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno",
+        "public_id": "EB-PV4612",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Venta Terreno en Zona Industrial Parque Tizayuca Hidalgo",
+        "title_image_full": "https://assets.easybroker.com/property_images/4384612/78308274/EB-PV4612.jpg?version=1722548934",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4384612/78308274/EB-PV4612.jpg?version=1722548934&width=200",
+        "updated_at": "2025-08-11T09:27:54-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2340.0,
+        "location": "Juárez, Cuauhtémoc, Ciudad de México",
+        "lot_size": 458.0,
+        "operations": [
+            {
+                "amount": 6500000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 6,500,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PX4302",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "SE VENDE EDIFICIO DE 5 PISOS COLONIA JUAREZ, CDMX",
+        "title_image_full": "https://assets.easybroker.com/property_images/4404302/78308628/EB-PX4302.jpg?version=1722549553",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4404302/78308628/EB-PX4302.jpg?version=1722549553&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 1200.0,
+        "location": "Colonia Condesa, Cuauhtémoc, Ciudad de México",
+        "lot_size": 300.0,
+        "operations": [
+            {
+                "amount": 70000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$70,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PX4328",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "SE VENDE EDIFICIO RENTADO DE SUITES  IDEAL PARA AIRBNB, CONDESA, CDMX",
+        "title_image_full": "https://assets.easybroker.com/property_images/4404328/78308640/EB-PX4328.jpg?version=1722549587",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4404328/78308640/EB-PX4328.jpg?version=1722549587&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 12147.0,
+        "location": "Santa Fe, Álvaro Obregón, Ciudad de México",
+        "lot_size": 1735.0,
+        "operations": [
+            {
+                "amount": 22000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 22,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PX4372",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "SE VENDE HOSPITAL EN OPERACIÓN EN  SANTA FÉ, CDMX",
+        "title_image_full": "https://assets.easybroker.com/property_images/4404372/73539266/EB-PX4372.jpg?version=1712333975",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4404372/73539266/EB-PX4372.jpg?version=1712333975&width=200",
+        "updated_at": "2025-07-18T11:10:59-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "IMAQ Tijuana, Tijuana, Baja California",
+        "lot_size": 95000.0,
+        "operations": [
+            {
+                "amount": 120.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 120",
+                "type": "sale",
+                "unit": "square_meter"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno industrial",
+        "public_id": "EB-PX4517",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "SE VENDE TERRENO EN CARRETERA  TECATE-TIJUANA",
+        "title_image_full": "https://assets.easybroker.com/property_images/4404517/73541777/EB-PX4517.jpg?version=1712336739",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4404517/73541777/EB-PX4517.jpg?version=1712336739&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Mariano Abasolo, Mexicali, Baja California",
+        "lot_size": 1000000.0,
+        "operations": [
+            {
+                "amount": 15.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 15",
+                "type": "sale",
+                "unit": "square_meter"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno industrial",
+        "public_id": "EB-PX4556",
+        "share_commission": true,
+        "show_prices": false,
+        "title": "SE VENDE TERRENO INDUSTRIAL CERCA DEL AEROPUERTO DE MEXICALI, B.C",
+        "title_image_full": "https://assets.easybroker.com/property_images/4404556/78308786/EB-PX4556.jpg?version=1722549695",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4404556/78308786/EB-PX4556.jpg?version=1722549695&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2123.0,
+        "location": "Tultitlán, Tultitlán, Estado de México",
+        "lot_size": 2390.0,
+        "operations": [
+            {
+                "amount": 394350.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$394,350",
+                "type": "rental",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Bodega comercial",
+        "public_id": "EB-PX6190",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se renta Bodega Tultitlan, Estado de México",
+        "title_image_full": "https://assets.easybroker.com/property_images/4406190/78308935/EB-PX6190.jpg?version=1722549828",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4406190/78308935/EB-PX6190.jpg?version=1722549828&width=200",
+        "updated_at": "2025-06-06T16:52:56-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 929.0,
+        "location": "Roma Norte, Cuauhtémoc, Ciudad de México",
+        "lot_size": 286.0,
+        "operations": [
+            {
+                "amount": 29750000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$29,750,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-PY3024",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Edificio en Roma Norte, Cuauhtémoc, Cdmx",
+        "title_image_full": "https://assets.easybroker.com/property_images/4413024/78309228/EB-PY3024.jpg?version=1722550207",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4413024/78309228/EB-PY3024.jpg?version=1722550207&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 6548.0,
+        "location": "Floresta, Los Reyes, Estado de México",
+        "lot_size": 3281.0,
+        "operations": [
+            {
+                "amount": 38000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$38,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": 1,
+        "property_type": "Nave industrial",
+        "public_id": "EB-QE1529",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "SE VENDE NAVE INDUSTRIAL EN SAN SALVADOR, ESTADO DE MÉXICO",
+        "title_image_full": "https://assets.easybroker.com/property_images/4471529/78309658/EB-QE1529.jpg?version=1722550504",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4471529/78309658/EB-QE1529.jpg?version=1722550504&width=200",
+        "updated_at": "2025-06-06T16:52:56-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Lomas de Tecamachalco, Naucalpan de Juárez, Estado de México",
+        "lot_size": 1400.0,
+        "operations": [
+            {
+                "amount": 27000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$27,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno",
+        "public_id": "EB-QE5847",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Terreno Habitacional Col. Tecamachalco, Naucalpan, Edo Mex",
+        "title_image_full": "https://assets.easybroker.com/property_images/4475847/78309787/EB-QE5847.jpg?version=1722550596",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4475847/78309787/EB-QE5847.jpg?version=1722550596&width=200",
+        "updated_at": "2025-06-06T16:52:56-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Lomas del Chamizal, Cuajimalpa de Morelos, Ciudad de México",
+        "lot_size": 10692.0,
+        "operations": [
+            {
+                "amount": 513216000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$513,216,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno comercial",
+        "public_id": "EB-QF5914",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Terreno Habitacional Residencial Av Stim, Lomas de Chamizal, Cdmx",
+        "title_image_full": "https://assets.easybroker.com/property_images/4485914/78309788/EB-QF5914.jpg?version=1722550621",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4485914/78309788/EB-QF5914.jpg?version=1722550621&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Lomas de Las Fuentes, Naucalpan de Juárez, Estado de México",
+        "lot_size": 1095.0,
+        "operations": [
+            {
+                "amount": 20000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$20,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno",
+        "public_id": "EB-QM2425",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Terreno Habitacional en Av de Las Fuentes, Lomas de Tecamachalco, Naucalpan, Mé",
+        "title_image_full": "https://assets.easybroker.com/property_images/4552425/78309997/EB-QM2425.jpg?version=1722550894",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4552425/78309997/EB-QM2425.jpg?version=1722550894&width=200",
+        "updated_at": "2025-06-06T16:52:56-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Tecate, Tecate, Baja California",
+        "lot_size": 2500000.0,
+        "operations": [
+            {
+                "amount": 14.5,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 14.50",
+                "type": "sale",
+                "unit": "square_meter"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno industrial",
+        "public_id": "EB-QM5805",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Se Vende Terreno Industrial Cuarzo Tijuana, Baja California",
+        "title_image_full": "https://assets.easybroker.com/property_images/4555805/78297339/EB-QM5805.jpg?version=1722538501",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4555805/78297339/EB-QM5805.jpg?version=1722538501&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 6739.0,
+        "location": "Real Vallarta, Zapopan, Jalisco",
+        "lot_size": 2322.0,
+        "operations": [
+            {
+                "amount": 160000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$160,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-QV0883",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "SE VENDE HOTEL EN AV. IGNACIO VALLARTA, ZAPOPAN JALISCO",
+        "title_image_full": "https://assets.easybroker.com/property_images/4640883/78183034/EB-QV0883.jpg?version=1722360598",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4640883/78183034/EB-QV0883.jpg?version=1722360598&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2172.0,
+        "location": "Tequisquiapan Centro, Tequisquiapan, Querétaro",
+        "lot_size": 5170.0,
+        "operations": [
+            {
+                "amount": 45000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$45,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-QV0918",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "SE VENDE HOTEL EN TEQUISQUIAPAN, QUERETÁRO MÉXICO",
+        "title_image_full": "https://assets.easybroker.com/property_images/4640918/78183483/EB-QV0918.jpg?version=1722361125",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4640918/78183483/EB-QV0918.jpg?version=1722361125&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 910.0,
+        "location": "Villa de Tezontepec Centro, Villa de Tezontepec, Hidalgo",
+        "lot_size": 9559.0,
+        "operations": [
+            {
+                "amount": 16000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$16,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": 1,
+        "property_type": "Nave industrial",
+        "public_id": "EB-QZ4720",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "SE VENDE NAVE INDUSTRIAL EN TEZONTEPEC",
+        "title_image_full": "https://assets.easybroker.com/property_images/4684720/79048469/EB-QZ4720.jpg?version=1724178438",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4684720/79048469/EB-QZ4720.jpg?version=1724178438&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 546.0,
+        "location": "Roma Norte, Cuauhtémoc, Ciudad de México",
+        "lot_size": 152.0,
+        "operations": [
+            {
+                "amount": 24000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$24,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-RG3206",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Edificio de Oficinas en Orizaba, Roma, Cuauhtémoc",
+        "title_image_full": "https://assets.easybroker.com/property_images/4753206/80382644/EB-RG3206.jpg?version=1727106137",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4753206/80382644/EB-RG3206.jpg?version=1727106137&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 530.0,
+        "location": "Colonia Condesa, Cuauhtémoc, Ciudad de México",
+        "lot_size": 291.0,
+        "operations": [
+            {
+                "amount": 33000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$33,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-RG3233",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Edificio de Oficinas con Uso Habitacional Mixto en Zona Estratégica",
+        "title_image_full": "https://assets.easybroker.com/property_images/4753233/80383164/EB-RG3233.jpg?version=1727107032",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4753233/80383164/EB-RG3233.jpg?version=1727107032&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 1350.0,
+        "location": "Nápoles, Benito Juárez, Ciudad de México",
+        "lot_size": 202.0,
+        "operations": [
+            {
+                "amount": 45000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$45,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-RM2659",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Edificio en Venta en La Colonia Nápoles, Cdmx",
+        "title_image_full": "https://assets.easybroker.com/property_images/4812659/81573663/EB-RM2659.jpg?version=1729626322",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4812659/81573663/EB-RM2659.jpg?version=1729626322&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2800.0,
+        "location": "Murua Oriente, Tijuana, Baja California",
+        "lot_size": 6682.5,
+        "operations": [
+            {
+                "amount": 5000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 5,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Nave industrial",
+        "public_id": "EB-RM6657",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Nave Industrial en Venta en Tijuana",
+        "title_image_full": "https://assets.easybroker.com/property_images/4816657/81653542/EB-RM6657.jpg?version=1729789780",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4816657/81653542/EB-RM6657.jpg?version=1729789780&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 6053.0,
+        "location": "Cañón del Sainz, Tijuana, Baja California",
+        "lot_size": 9023.0,
+        "operations": [
+            {
+                "amount": 5000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 5,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Nave industrial",
+        "public_id": "EB-RS8160",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Nave industrial en venta Tijuana (Actualmente rentada a Coca-Cola)",
+        "title_image_full": "https://assets.easybroker.com/property_images/4878160/82867388/EB-RS8160.jpg?version=1732553638",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4878160/82867388/EB-RS8160.jpg?version=1732553638&width=200",
+        "updated_at": "2025-01-21T21:29:49-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 6000.0,
+        "location": "Los Alpes, Álvaro Obregón, Ciudad de México",
+        "lot_size": 701.0,
+        "operations": [
+            {
+                "amount": 140000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$140,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-RS8173",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Edificio en venta en Colonia Los Alpes, Álvaro Obregón",
+        "title_image_full": "https://assets.easybroker.com/property_images/4878173/82867829/EB-RS8173.jpg?version=1732554095",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/4878173/82867829/EB-RS8173.jpg?version=1732554095&width=200",
+        "updated_at": "2025-05-26T10:16:53-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2600.0,
+        "location": "México, Tijuana, Baja California",
+        "lot_size": 4717.0,
+        "operations": [
+            {
+                "amount": 2100000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 2,100,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Nave industrial",
+        "public_id": "EB-ST3963",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "NAVE INDUSTRIAL EN VENTA EN SAN PABLO TIJUANA",
+        "title_image_full": "https://assets.easybroker.com/property_images/5143963/88318800/EB-ST3963.jpg?version=1743631793",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5143963/88318800/EB-ST3963.jpg?version=1743631793&width=200",
+        "updated_at": "2025-04-02T16:15:11-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 1200.0,
+        "location": "Tecate, Tecate, Baja California",
+        "lot_size": 1300.0,
+        "operations": [
+            {
+                "amount": 1300000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 1,300,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Nave industrial",
+        "public_id": "EB-SU4211",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Nave Industrial en Venta en Tecate",
+        "title_image_full": "https://assets.easybroker.com/property_images/5154211/88513613/EB-SU4211.jpg?version=1744047517",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5154211/88513613/EB-SU4211.jpg?version=1744047517&width=200",
+        "updated_at": "2025-08-04T13:18:11-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Alamitos, Mexicali, Baja California",
+        "lot_size": 55421.0,
+        "operations": [
+            {
+                "amount": 12359050.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 12,359,050",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno industrial",
+        "public_id": "EB-SU4223",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Terreno Industrial en Venta en Mexicali, Baja California",
+        "title_image_full": "https://assets.easybroker.com/property_images/5154223/88513773/EB-SU4223.jpg?version=1744047671",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5154223/88513773/EB-SU4223.jpg?version=1744047671&width=200",
+        "updated_at": "2025-04-07T11:47:20-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 6200.0,
+        "location": "Valles de Pachuca, Pachuca de Soto, Hidalgo",
+        "lot_size": 11610.0,
+        "operations": [
+            {
+                "amount": 158609000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$158,609,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Nave industrial",
+        "public_id": "EB-SU4233",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Nave Industrial en Venta en Carretera México - Pachuca",
+        "title_image_full": "https://assets.easybroker.com/property_images/5154233/88514028/EB-SU4233.jpg?version=1744047865",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5154233/88514028/EB-SU4233.jpg?version=1744047865&width=200",
+        "updated_at": "2025-04-07T11:50:12-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2609.0,
+        "location": "La Otra Banda, Coyoacán, Ciudad de México",
+        "lot_size": 1049.0,
+        "operations": [
+            {
+                "amount": 65000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$65,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-SU4244",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Plaza Comercial en Venta en Coyoacán",
+        "title_image_full": "https://assets.easybroker.com/property_images/5154244/88514349/EB-SU4244.jpg?version=1744048108",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5154244/88514349/EB-SU4244.jpg?version=1744048108&width=200",
+        "updated_at": "2025-05-26T10:12:18-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2700.0,
+        "location": "Reforma, Mexicali, Baja California",
+        "lot_size": 1350.0,
+        "operations": [
+            {
+                "amount": 55000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$55,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-SU4268",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Edificio en Venta en Reforma, Tijuana",
+        "title_image_full": "https://assets.easybroker.com/property_images/5154268/88514771/EB-SU4268.jpg?version=1744048462",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5154268/88514771/EB-SU4268.jpg?version=1744048462&width=200",
+        "updated_at": "2025-04-07T12:00:28-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 4170.2,
+        "location": "Zona Loma Blanca Poniente, San Pedro Garza García, Nuevo León",
+        "lot_size": 4170.2,
+        "operations": [
+            {
+                "amount": 202000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$202,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Oficina",
+        "public_id": "EB-SZ3532",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "PISOS DE OFICINA EN VENTA EN TORRE AURUM",
+        "title_image_full": "https://assets.easybroker.com/property_images/5203532/89464935/EB-SZ3532.png?version=1745877070",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5203532/89464935/EB-SZ3532.png?version=1745877070&width=200",
+        "updated_at": "2025-07-24T15:23:15-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 1238.0,
+        "location": "Tepeyac Insurgentes, Gustavo A. Madero, Ciudad de México",
+        "lot_size": 290.0,
+        "operations": [
+            {
+                "amount": 68000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$68,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-SZ3554",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "¡Inversión Estratégica en Montevideo – Edificio en Venta!",
+        "title_image_full": "https://assets.easybroker.com/property_images/5203554/89465236/EB-SZ3554.jpg?version=1745877427",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5203554/89465236/EB-SZ3554.jpg?version=1745877427&width=200",
+        "updated_at": "2025-04-28T16:02:55-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Ahuatenco, Cuajimalpa de Morelos, Ciudad de México",
+        "lot_size": 1207.0,
+        "operations": [
+            {
+                "amount": 16294500.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$16,294,500",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno",
+        "public_id": "EB-TS1541",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "🌄 Terreno Habitacional en Venta en Tepozanco, Cuajimalpa – Inversión Segura en",
+        "title_image_full": "https://assets.easybroker.com/property_images/5391541/93199762/EB-TS1541.jpg?version=1752865490",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5391541/93199762/EB-TS1541.jpg?version=1752865490&width=200",
+        "updated_at": "2025-07-18T13:11:26-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Valle Redondo, Tijuana, Baja California",
+        "lot_size": 110000.0,
+        "operations": [
+            {
+                "amount": 9900000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 9,900,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno industrial",
+        "public_id": "EB-TS2122",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Terreno Industrial en Venta en Tijuana – 11 Hectáreas con Potencial Logístico",
+        "title_image_full": "https://assets.easybroker.com/property_images/5392122/93211816/EB-TS2122.png?version=1752873664",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5392122/93211816/EB-TS2122.png?version=1752873664&width=200",
+        "updated_at": "2025-07-18T15:28:45-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2500.0,
+        "location": "Chapultepec, Tijuana, Baja California",
+        "lot_size": 1600.0,
+        "operations": [
+            {
+                "amount": 28000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$28,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-TS2361",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Plaza Comercial en Venta en Chapultepec, Ensenada",
+        "title_image_full": "https://assets.easybroker.com/property_images/5392361/93217498/EB-TS2361.jpg?version=1752875434",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5392361/93217498/EB-TS2361.jpg?version=1752875434&width=200",
+        "updated_at": "2025-07-18T16:09:29-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 8070.0,
+        "location": "Residencial Yautepec, Yautepec, Morelos",
+        "lot_size": 7400.0,
+        "operations": [
+            {
+                "amount": 177000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$177,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-TS2398",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Paquete de Hoteles en Venta en Yautepec, Oaxtepec y Cuautla – Inversión Turístic",
+        "title_image_full": "https://assets.easybroker.com/property_images/5392398/93218355/EB-TS2398.jpg?version=1752875917",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5392398/93218355/EB-TS2398.jpg?version=1752875917&width=200",
+        "updated_at": "2025-07-18T16:19:06-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2400.0,
+        "location": "Vista Bella, Tijuana, Baja California",
+        "lot_size": 2500.0,
+        "operations": [
+            {
+                "amount": 1300000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 1,300,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Nave industrial",
+        "public_id": "EB-TS2424",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Nave Industrial en Venta – Bellavista, Tijuana",
+        "title_image_full": "https://assets.easybroker.com/property_images/5392424/93218703/EB-TS2424.jpg?version=1752876418",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5392424/93218703/EB-TS2424.jpg?version=1752876418&width=200",
+        "updated_at": "2025-07-18T16:21:52-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 790.0,
+        "location": "Cuauhtémoc, Cuauhtémoc, Ciudad de México",
+        "lot_size": 233.0,
+        "operations": [
+            {
+                "amount": 35000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$35,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-TS2450",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "🏢 Edificio en Venta – Oficinas Rentadas en Cuauhtémoc, CDMX",
+        "title_image_full": "https://assets.easybroker.com/property_images/5392450/93219125/EB-TS2450.jpg?version=1752877070",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5392450/93219125/EB-TS2450.jpg?version=1752877070&width=200",
+        "updated_at": "2025-07-18T16:31:03-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2165.0,
+        "location": "La Muralla, Tijuana, Baja California",
+        "lot_size": 7070.0,
+        "operations": [
+            {
+                "amount": 3400000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 3,400,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Nave industrial",
+        "public_id": "EB-TS2478",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "🏭 Nave Industrial en Venta – La Mura, Tijuana",
+        "title_image_full": "https://assets.easybroker.com/property_images/5392478/93219633/EB-TS2478.jpg?version=1752877429",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5392478/93219633/EB-TS2478.jpg?version=1752877429&width=200",
+        "updated_at": "2025-07-18T16:32:02-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Santa Fe, Tijuana, Baja California",
+        "lot_size": 2604.0,
+        "operations": [
+            {
+                "amount": 1902854.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "USD",
+                "formatted_amount": "US$ 1,902,854",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno industrial",
+        "public_id": "EB-TS2490",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "PROYECTO DE DESARROLLO SANTA FE, TIJUANA",
+        "title_image_full": "https://assets.easybroker.com/property_images/5392490/93219828/EB-TS2490.jpg?version=1752877816",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5392490/93219828/EB-TS2490.jpg?version=1752877816&width=200",
+        "updated_at": "2025-07-18T16:35:54-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 6750.0,
+        "location": "Transito, Cuauhtémoc, Ciudad de México",
+        "lot_size": 1050.0,
+        "operations": [
+            {
+                "amount": 238000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$238,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-TS4703",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Edificio en Venta – San Antonio Abad (Ingresos Actuales)",
+        "title_image_full": "https://assets.easybroker.com/property_images/5394703/93264990/EB-TS4703.jpg?version=1753111931",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5394703/93264990/EB-TS4703.jpg?version=1753111931&width=200",
+        "updated_at": "2025-07-21T09:37:42-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": null,
+        "location": "Granjas Lomas de Guadalupe, Cuautitlán Izcalli, Estado de México",
+        "lot_size": 933.9,
+        "operations": [
+            {
+                "amount": 6800000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$6,800,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Terreno industrial",
+        "public_id": "EB-TS4729",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Terreno o Nave Industrial en Venta – Cuautitlán Izcalli, Estado de México",
+        "title_image_full": "https://assets.easybroker.com/property_images/5394729/93265568/EB-TS4729.jpg?version=1753113154",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5394729/93265568/EB-TS4729.jpg?version=1753113154&width=200",
+        "updated_at": "2025-07-21T09:57:56-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 1140.0,
+        "location": "Industrial Tlatilco, Naucalpan de Juárez, Estado de México",
+        "lot_size": 1060.0,
+        "operations": [
+            {
+                "amount": 35000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$35,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Nave industrial",
+        "public_id": "EB-TS4739",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "🏭 Nave Industrial en Venta – Tlatilco, Naucalpan",
+        "title_image_full": "https://assets.easybroker.com/property_images/5394739/93265820/EB-TS4739.jpg?version=1753113552",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5394739/93265820/EB-TS4739.jpg?version=1753113552&width=200",
+        "updated_at": "2025-07-21T10:05:00-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 4210.0,
+        "location": "Unidad Tecnológico, Chihuahua, Chihuahua",
+        "lot_size": 2980.0,
+        "operations": [
+            {
+                "amount": 130000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$130,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-TS5066",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Edificio en Venta en Ciudad Juárez – Actualmente Generando Ingresos",
+        "title_image_full": "https://assets.easybroker.com/property_images/5395066/93272200/EB-TS5066.jpg?version=1753119039",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5395066/93272200/EB-TS5066.jpg?version=1753119039&width=200",
+        "updated_at": "2025-08-05T12:29:01-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 250.0,
+        "location": "Santiago, Querétaro, Querétaro",
+        "lot_size": 857.0,
+        "operations": [
+            {
+                "amount": 16500000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$16,500,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-TS5176",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "🏬 Plaza Comercial en Venta en Manufactura, Querétaro – Actualmente Generando",
+        "title_image_full": "https://assets.easybroker.com/property_images/5395176/93274137/EB-TS5176.jpg?version=1753120637",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5395176/93274137/EB-TS5176.jpg?version=1753120637&width=200",
+        "updated_at": "2025-08-05T12:28:46-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 842.0,
+        "location": "Polanco I Sección, Miguel Hidalgo, Ciudad de México",
+        "lot_size": 599.0,
+        "operations": [
+            {
+                "amount": 78000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$78,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-TS6310",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Edificio para Airbnb en Venta en Polanco – Oportunidad de Inversión Turística",
+        "title_image_full": "https://assets.easybroker.com/property_images/5396310/93296349/EB-TS6310.jpg?version=1753136470",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5396310/93296349/EB-TS6310.jpg?version=1753136470&width=200",
+        "updated_at": "2025-07-21T16:26:51-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 4015.0,
+        "location": "Tanlum, Mérida, Yucatán",
+        "lot_size": 5993.09,
+        "operations": [
+            {
+                "amount": 25000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$25,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Nave industrial",
+        "public_id": "EB-TS7608",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "NAVES INDUSTRIALES LISTAS PARA USO EN VENTA- TANLUM",
+        "title_image_full": "https://assets.easybroker.com/property_images/5397608/93323163/EB-TS7608.jpg?version=1753200107",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5397608/93323163/EB-TS7608.jpg?version=1753200107&width=200",
+        "updated_at": "2025-08-05T12:16:01-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 820.0,
+        "location": "Narvarte Poniente, Benito Juárez, Ciudad de México",
+        "lot_size": 288.0,
+        "operations": [
+            {
+                "amount": 37000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$37,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-UG2102",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Edificio de Oficinas en Venta en Narvarte Poniente – Oportunidad Única",
+        "title_image_full": "https://assets.easybroker.com/property_images/5532102/96081327/EB-UG2102.jpg?version=1758562281",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5532102/96081327/EB-UG2102.jpg?version=1758562281&width=200",
+        "updated_at": "2025-09-22T11:37:17-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 645.0,
+        "location": "Nápoles, Benito Juárez, Ciudad de México",
+        "lot_size": 250.0,
+        "operations": [
+            {
+                "amount": 32000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$32,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-UG2212",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "EDIFICIO EN VENTA EN ROCHESTER, NAPOLES, CDMX",
+        "title_image_full": "https://assets.easybroker.com/property_images/5532212/96082416/EB-UG2212.jpg?version=1758563098",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5532212/96082416/EB-UG2212.jpg?version=1758563098&width=200",
+        "updated_at": "2025-09-22T11:51:03-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 2200.0,
+        "location": "Santiago, Querétaro, Querétaro",
+        "lot_size": 2200.0,
+        "operations": [
+            {
+                "amount": 50000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$50,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-UG2307",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "Hotel en Venta en Santiago de Querétaro",
+        "title_image_full": "https://assets.easybroker.com/property_images/5532307/96083877/EB-UG2307.jpg?version=1758564206",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5532307/96083877/EB-UG2307.jpg?version=1758564206&width=200",
+        "updated_at": "2025-09-22T12:08:57-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 463.0,
+        "location": "Independencia, Querétaro, Querétaro",
+        "lot_size": 318.0,
+        "operations": [
+            {
+                "amount": 17500000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$17,500,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-UG2355",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "HOTEL EN VENTA EN QUERETARO",
+        "title_image_full": "https://assets.easybroker.com/property_images/5532355/96084814/EB-UG2355.jpg?version=1758565063",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5532355/96084814/EB-UG2355.jpg?version=1758565063&width=200",
+        "updated_at": "2025-09-22T12:23:34-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 800.0,
+        "location": "Zona Hotelera Norte, Cozumel, Quintana Roo",
+        "lot_size": 800.0,
+        "operations": [
+            {
+                "amount": 9500000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$9,500,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-UG2694",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "HOTEL LUNA Y SOL EN VENTA EN HOLBOX",
+        "title_image_full": "https://assets.easybroker.com/property_images/5532694/96091095/EB-UG2694.jpg?version=1758569719",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5532694/96091095/EB-UG2694.jpg?version=1758569719&width=200",
+        "updated_at": "2025-09-22T13:40:48-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 947.0,
+        "location": "Tequisquiapan Centro, Tequisquiapan, Querétaro",
+        "lot_size": 500.0,
+        "operations": [
+            {
+                "amount": 13000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$13,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-UG2716",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "PLAZA EN VENTA EN TEQUISQUIAPAN QUERETARO",
+        "title_image_full": "https://assets.easybroker.com/property_images/5532716/96091646/EB-UG2716.jpg?version=1758570005",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5532716/96091646/EB-UG2716.jpg?version=1758570005&width=200",
+        "updated_at": "2025-09-22T13:45:27-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 262.0,
+        "location": "Santa Fe Cuajimalpa, Cuajimalpa de Morelos, Ciudad de México",
+        "lot_size": 262.0,
+        "operations": [
+            {
+                "amount": 17000000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$17,000,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Oficina",
+        "public_id": "EB-UG3174",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "OFICINA EN VENTA EN SANTA FE, CDMX",
+        "title_image_full": "https://assets.easybroker.com/property_images/5533174/96100611/EB-UG3174.jpg?version=1758576276",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5533174/96100611/EB-UG3174.jpg?version=1758576276&width=200",
+        "updated_at": "2025-09-22T15:30:03-06:00"
+    },
+    {
+        "agent": "Alex Mompala",
+        "bathrooms": null,
+        "bedrooms": null,
+        "construction_size": 714.0,
+        "location": "Guadalupe Tepeyac, Gustavo A. Madero, Ciudad de México",
+        "lot_size": 268.0,
+        "operations": [
+            {
+                "amount": 14300000.0,
+                "commission": {
+                    "type": "percentage"
+                },
+                "currency": "MXN",
+                "formatted_amount": "$14,300,000",
+                "type": "sale",
+                "unit": "total"
+            }
+        ],
+        "parking_spaces": null,
+        "property_type": "Edificio",
+        "public_id": "EB-UG3187",
+        "share_commission": true,
+        "show_prices": true,
+        "title": "EDIFICIO EN VENTA PARA REMODELAR EN CALZADA DE GUADALUPE",
+        "title_image_full": "https://assets.easybroker.com/property_images/5533187/96100825/EB-UG3187.jpg?version=1758576560",
+        "title_image_thumb": "https://assets.easybroker.com/property_images/5533187/96100825/EB-UG3187.jpg?version=1758576560&width=200",
+        "updated_at": "2025-09-22T15:35:00-06:00"
+    }
+]
