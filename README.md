@@ -60,6 +60,7 @@ docker compose exec web python manage.py test spots
 - 5 Búsqueda geoespacial – spots dentro de un polígono: **POST** `/api/spots/within/`
 - 6 Precio promedio por sector: **GET** `/api/spots/average-price-by-sector/`
 - 7 Obtener detalles de un spot específico: **GET** `/api/spots/{id}/`
+- 8 Ranking de spots por precio total de renta: **GET** `/api/spots/top-rent/?limit=10`
 
 
 ---
@@ -291,3 +292,45 @@ GET /api/spots/?sector=9&type=1&municipality=Álvaro Obregón
 
 ---
 
+## 8 Ranking de spots por precio total de renta
+
+**GET** `/api/spots/top-rent/?limit=10`
+
+Parámetros:
+
+- `limit` (int, opcional, default 10, rango `1..100`)
+- Admite los mismos filtros del listado (`?municipality=...`, `?sector=...`, `?type=...`)
+
+
+**Ejemplo de respuesta:**
+```json
+[
+  {
+    "spot_id": 103,
+    "title": "C-8000",
+    "price_total_rent_mxn": 8000.0,
+    "location": {"type":"Point","coordinates":[-99.22,19.39]},
+    "sector_id": 12,
+    "type_id": 2,
+    "modality": "rent"
+  },
+  {
+    "spot_id": 105,
+    "title": "E-7000",
+    "price_total_rent_mxn": 7000.0,
+    "location": {"type":"Point","coordinates":[-99.19,19.41]},
+    "sector_id": 12,
+    "type_id": 1,
+    "modality": "rent"
+  },
+  {
+    "spot_id": 101,
+    "title": "A-5000",
+    "price_total_rent_mxn": 5000.0,
+    "location": {"type":"Point","coordinates":[-99.2,19.4]},
+    "sector_id": 9,
+    "type_id": 1,
+    "modality": "rent"
+  }
+]
+```

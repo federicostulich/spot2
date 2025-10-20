@@ -83,3 +83,21 @@ class SpotViewSet(viewsets.ReadOnlyModelViewSet):
             for row in data
         ]
         return Response(results)
+    
+    @action(detail=False, methods=["get"], url_path="top-rent")
+    def top_rent(self, request):
+        limit = request.query_params.get("limit", "10")
+        try:
+            limit = int(limit)
+        except (TypeError, ValueError):
+            limit = 10
+        limit = max(1, min(limit, 100))
+
+        qs = (
+            self.get_queryset()
+            .exclude(price_total_rent_mxn__isnull=True)
+            .order_by("-price_total_rent_mxn", "spot_id")
+        )[:limit]
+
+        ser = self.get_serializer(qs, many=True)
+        return Response(ser.data)
